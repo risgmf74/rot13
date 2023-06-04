@@ -1,4 +1,4 @@
-// Decode of ROT13 cipher. The letters will shifted down by 13 places
+// Decode of ROT13 cipher. The letters will shifted by 13 places
 // Only transform alphabetic character
 
 function rot13(str) {
@@ -20,4 +20,5 @@ function rot13(str) {
     return newStr.join('');
 }
 
-// rot13("Gur Dhvpx Oebja Sbk Whzcf Bire Gur Ynml Qbt.") should return 'The Quick Brown Fox Jumps Over The Lazy Dog.'
+// rot13('Gur Dhvpx Oebja Sbk Whzcf Bire Gur Ynml Qbt.') should return 'The Quick Brown Fox Jumps Over The Lazy Dog.'
+// rot13('The Quick Brown Fox Jumps Over The Lazy Dog.') should return 'Gur Dhvpx Oebja Sbk Whzcf Bire Gur Ynml Qbt.'
