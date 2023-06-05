@@ -1,4 +1,4 @@
-// Decode of ROT13 cipher. The letters will shifted by 13 places
+// ROT13 cipher generator. The letters will shifted by 13 places
 // Only transform alphabetic character
 
 function rot13(str) {
